@@ -3,7 +3,7 @@
 name: App Deploy Azure Vote - BuildOnACR
 
 on:
-  workflow_call:
+  workflow_dispatch:
     inputs:
       RG:
         description: 'The Resource Group where your resources are deployed'
